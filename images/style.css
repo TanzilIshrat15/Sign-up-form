@@ -1,0 +1,113 @@
+body{
+    background-image: url(bg-intro-mobile.png);
+    background-color:pink;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 5%;
+    
+
+
+}
+
+.form{
+    background-color: white;
+    width: 460px;
+    height: 450px;
+    border-radius: 1vh;
+    padding:15px 15px 15px;
+
+    
+
+}
+
+
+.right{
+    flex: 1;
+}
+.left{
+    flex: 1;
+    margin-left: 290px;
+    
+    
+}
+.left p{
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+    margin-right:260px;
+    
+}
+.left h1{
+    color: white;
+    font-size: 3rem;
+     margin: 10px;
+     right:1rem;
+     font-weight: bolder;
+
+    
+}
+input{
+    width: 86%;
+    height:24px;
+    padding: 10px;
+    margin: 16px;
+    border-radius: 5px;
+    border: 2px solid palevioletred;
+}
+.container-items{
+    border: 2px solid blueviolet;
+    background-color: blueviolet;
+    color: white;
+    width: 88%;
+    height:44px;
+    border-radius:  2vh;
+    margin: 18px;
+    text-align: center;
+    font-size: 18px;
+    padding:1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button{
+    width: 90%;
+    height: 45px;
+    border: 2px solid green;
+    background-color: green;
+    opacity: 0.2s;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 17px;
+    border-radius: 5px;
+
+}
+::placeholder{
+    font-weight:500;
+    font-size: 16px;
+    padding: 8px;
+}
+.form p{
+    text-align: center;
+    margin-bottom: 4px;
+    color: grey;
+
+}
+.form b{
+    color: pink;
+    padding: 3px;
+    margin-bottom: 3px;
+}
